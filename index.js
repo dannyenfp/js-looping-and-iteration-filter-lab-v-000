@@ -3,5 +3,5 @@
 function findMatching(drivers, string) { 
   const newDrivers = []
   
-  return drivers.filter(driver => driver == string); 
+  return drivers.filter(driver => driver.toLowerCase() === string.toLowerCase()); 
 } 
