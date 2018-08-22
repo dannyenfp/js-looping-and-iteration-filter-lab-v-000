@@ -3,6 +3,5 @@
 function findMatching(drivers, string) { 
   const newDrivers = []
   
-  drivers.filter(driver, )
-  
+  return drivers.filter(driver => driver === string); 
 } 
